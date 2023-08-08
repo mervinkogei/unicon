@@ -42,7 +42,7 @@ class _SignState extends State<Sign> {
                   TextField(
                     decoration: InputDecoration(
                       filled: true,
-                      fillColor: greyColor,
+                      fillColor: Colors.grey.shade100,
                       focusedBorder: OutlineInputBorder(
                     borderSide: const BorderSide(width: 2, color: whiteColor),
                     borderRadius: BorderRadius.circular(20.0),
@@ -65,7 +65,7 @@ class _SignState extends State<Sign> {
                     borderRadius: BorderRadius.circular(20.0),
                   ),
                       filled: true,
-                      fillColor: greyColor,
+                      fillColor: Colors.grey.shade100,
                     enabledBorder: OutlineInputBorder(
                     borderSide: const BorderSide(width: 2, color: whiteColor),
                     borderRadius: BorderRadius.circular(20.0),

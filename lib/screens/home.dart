@@ -89,7 +89,7 @@ class _HomeState extends State<Home> {
                  maxSteps: 6,
                  progressType: LinearProgressBar.progressTypeLinear,
                  currentStep: 4,
-                 progressColor: Colors.red,
+                 progressColor: Colors.green,
                  backgroundColor: Colors.grey,
                )
               ],

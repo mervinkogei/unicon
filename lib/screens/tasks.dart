@@ -117,7 +117,7 @@ class _TasksState extends State<Tasks> {
                  maxSteps: 6,
                  progressType: LinearProgressBar.progressTypeLinear,
                  currentStep: 4,
-                 progressColor: Colors.red,
+                 progressColor: Colors.green,
                  backgroundColor: Colors.grey,
                )
               ],

@@ -45,7 +45,7 @@ class ThemeStyling{
 }
 
 class DefaultValues{
-  static final cookieJar = CookieJar(); 
+  // static final cookieJar = CookieJar(); 
   List defaultNavigationList = [
     {
       "icon": const Icon(Icons.home),//Image.asset("images/home_dash.png"),
@@ -80,7 +80,7 @@ class DefaultValues{
       title: Image.asset('images/app_logo.png'),
       actions:  [
         Padding(
-          padding: EdgeInsets.only(right: 10.0),
+          padding: const EdgeInsets.only(right: 10.0),
           child: InkWell(
             onTap: (){
               Navigator.of(context, rootNavigator: true).push(

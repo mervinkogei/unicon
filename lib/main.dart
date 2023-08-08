@@ -21,11 +21,11 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: SplashScreen(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.white,
         duration: const Duration(seconds: 3),
         nextPage: const Sign(),
         iconBackgroundColor: Colors.white,
-        circleHeight: 100,
+        circleHeight: 200,
         text: const Text(
           "",
           style: TextStyle(
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
             fontWeight: FontWeight.bold,
           ),
         ),
-        child: Image.asset('images/logo.png', scale: 1.5,),
+        child: Image.asset('images/logo.png', scale: 0.2,),
     ),
     );
   }
